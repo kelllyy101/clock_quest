@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Wix+Madefor+Text:wght@600&display=swap');
 
-*   {
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -9,5 +9,52 @@
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: black;
+    color: #3a3a3a;
+}
+
+/*headings and logo*/
+h1,
+h2 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: crimson;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    /* Center horizontally */
+    max-width: 300px;
+    /* Adjust the max-width as needed */
+}
+
+#menu {
+    font-size: 150%;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Display list items horizontally */
+    justify-content: center;
+    /* Center-align list items */
+}
+
+nav li {
+    margin: 0 100px;
+    /* Add some spacing between list items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
 }
