@@ -58,3 +58,43 @@ nav a {
     text-decoration: none;
     color: #fff;
 }
+
+#menu,
+#logo {
+    line-height: 100px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    /* Center horizontally */
+    max-width: 200px;
+    /* Adjust the max-width as needed */
+    background-color: white;
+    /* Set a background color for the logo */
+    transform: scale(0);
+    /* Start with a scaled-down size */
+    animation: logo-animation 1s ease-in-out forwards;
+    /* Apply the scale animation */
+}
+
+@keyframes logo-animation {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+/*main image*/
+#main-image {
+    height: 400px;
+    width: 150%;
+    background: url('../images/pexels-photo-295826.jpeg') no-repeat center center;
+}
