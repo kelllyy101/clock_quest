@@ -119,9 +119,15 @@ nav a {
 }
 
 /*footer*/
+h4 {
+    color: white;
+}
+
 footer {
+    position: relative;
     height: 200px;
     background-color: #333;
+    bottom: 0;
 }
 
 footer>p {
@@ -138,8 +144,12 @@ footer>p {
 }
 
 .websites i {
-    font-size: 150%;
+    font-size: 200%;
     margin: 1px;
     padding: 5%;
+    color: crimson;
+}
+
+#button-addon1 {
     color: crimson;
 }
