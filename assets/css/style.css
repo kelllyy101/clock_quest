@@ -130,6 +130,8 @@ nav a {
 /*footer*/
 h4 {
     color: white;
+    float: left;
+    padding: 10px;
 }
 
 footer {
@@ -158,9 +160,18 @@ footer>p {
     color: crimson;
 }
 
-#button-addon1 {
+/*sign up with email*/
+#button {
     color: crimson;
 }
+
+.input-group {
+    text-align: center;
+    float: right;
+    padding: 10px;
+}
+
+.button-zoom {}
 
 /*app menu*/
 .app-column {
@@ -200,4 +211,18 @@ a {
 
 h3 a:hover {
     color: crimson;
+}
+
+/*skills html*/
+#skills-image {
+    height: auto;
+    width: 100%;
+    background: url('../images/pexels-photo-714701.jpeg') no-repeat center cover;
+}
+
+#skills-text {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    background-color: #333;
 }
