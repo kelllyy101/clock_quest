@@ -27,7 +27,16 @@ h2 {
     /* Center horizontally */
     max-width: 300px;
     /* Adjust the max-width as needed */
+    text-decoration: underline white;
 }
+
+.logo i {
+    font-size: 300%;
+    margin: 5px;
+    padding: 1%;
+    color: crimson;
+}
+
 
 #menu {
     font-size: 150%;
@@ -151,4 +160,30 @@ footer>p {
 
 #button-addon1 {
     color: crimson;
+}
+
+/*app menu*/
+.app-column {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-around;
+    max-width: 70rem;
+    margin: auto;
+    align-items: flex-start;
+    padding: 0 1.25rem;
+}
+
+.app-column div {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.app-column {
+    background-color: #333;
+    flex: 0 1 25rem;
+    margin: 1.75rem;
+    height: 50rem;
 }
