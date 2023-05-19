@@ -6,6 +6,10 @@
     border: none;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
@@ -108,14 +112,34 @@ nav a {
 
 /*main image*/
 #main-image {
-    height: 300px;
+    height: 350px;
     width: 100%;
     background: url('../images/pexels-photo-707676.jpeg');
+    opacity: 0.4;
+}
+
+.main-image-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 10px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    margin-top: 5%;
+    padding: 5px;
+    text-align: center;
 }
 
 .column {
     height: 100px;
-    width: 33.3%;
+    width: 50%;
     float: left;
 }
 
@@ -124,6 +148,7 @@ nav a {
     clear: both;
     display: table;
 }
+
 
 /*banners*/
 .hover-container {
