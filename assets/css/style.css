@@ -110,8 +110,19 @@ nav a {
 #main-image {
     height: 300px;
     width: 100%;
-    margin-left: 25%;
-    background: url('../images/many_clocks.jpg') no-repeat;
+    background: url('../images/pexels-photo-707676.jpeg');
+}
+
+.column {
+    height: 100px;
+    width: 33.3%;
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /*banners*/
