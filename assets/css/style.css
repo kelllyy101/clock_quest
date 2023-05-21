@@ -287,30 +287,20 @@ footer>p {
 .button-zoom {}
 
 /*app menu*/
-.app-column {
+.row {
     display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-    justify-content: space-around;
-    max-width: 70rem;
-    margin: auto;
-    align-items: flex-start;
-    padding: 0 1.25rem;
-}
-
-.app-column div {
-    display: flex;
-    flex-flow: wrap;
-    text-align: center;
     justify-content: space-between;
 }
 
-.app-column {
+.column {
+    text-align: center;
+    justify-content: space-between;
+    flex-basis: 33%;
     background-color: #333;
-    flex: 0 1 25rem;
-    margin: 1.75rem;
+    float: left;
+    width: 33.3%;
     height: 5rem;
-    transition: all . 2sease-in-out;
+    transition: all 2sease-in-out;
 }
 
 .app-column:hover {
