@@ -28,6 +28,10 @@ h2 {
     font-family: Montserrat;
     letter-spacing: 4px;
     color: crimson;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -45,9 +49,10 @@ li {
     max-width: 300px;
     /* Adjust the max-width as needed */
     text-decoration: underline white;
+    font-weight: 300;
     font-family: Montserrat;
     text-transform: uppercase;
-    letter-spacing: 7px;
+    letter-spacing: 8px;
     color: crimson;
     text-transform: uppercase;
 }
@@ -68,6 +73,7 @@ nav {
     background-color: #333;
     color: #fff;
     padding: 5px;
+    height: 10%;
 }
 
 nav ul {
@@ -83,7 +89,7 @@ nav ul {
 
 nav li {
     margin: 0 100px;
-    display: in;
+    display: inline;
     /* Add some spacing between list items */
 }
 
@@ -134,7 +140,6 @@ nav a {
 }
 
 .main-image-text {
-    background-color: rgb (0, 0, 0);
     background-color: rgba(0, 0, 0, 0.8);
     /* Fallback color */
     opacity: 1.0;
@@ -207,67 +212,58 @@ nav a {
 }
 
 /*footer*/
-h4 {
-    color: white;
-    float: left;
-    padding: 10px;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.website-left,
+.website-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo-footer {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo-footer i {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.website-left a,
+.website-right a {
+    color: crimson;
+}
+
+.website-left a:hover,
+.website-right a:hover {
+    text-decoration: underline;
+}
+
+.website-left:before,
+.website-right:before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: crimson;
+    margin-bottom: 10px;
 }
 
 footer {
     height: 200px;
     background-color: #333;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer>p {
-    color: white;
+    color: #fff;
     text-align: center;
-}
-
-.websites {}
-
-.websites>li {
-    display: inline;
-}
-
-.websites i {
-    font-size: 200%;
-    margin: 1px;
-    padding: 5%;
-    color: crimson;
-    text-decoration: none;
-    /* Remove the unnecessary line */
-}
-
-.websites i:hover {
-    text-decoration: underline;
-    /* Add underline effect on hover */
-}
-
-.websites:before {
-    font-family: Arial;
-    font-weight: bold;
-    padding: 0 0 20px 0;
-    color: crimson;
-}
-
-.websites:after {
-    content: '';
-    height: 5px;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    visibility: hidden;
-    background-color: crimson;
-    transition: all 0.3s ease;
-    transform: scaleX(0);
-}
-
-.websites:hover:after {
-    visibility: visible;
-    transform: scaleX(1);
 }
 
 /*sign up with email*/
@@ -332,3 +328,29 @@ h3 a:hover {
     font-size: 150%;
     background-color: #333;
 }
+
+/* Media queries for mobile and tablet */
+@media screen and (max-width: 767px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    main {
+        margin: 10px;
+        padding: 0;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
