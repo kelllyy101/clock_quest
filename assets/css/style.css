@@ -197,7 +197,16 @@ nav a {
 
 
 /*time management main section with 3 paragraphs*/
-#time-managment {}
+
+div p {
+    color: #616161;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding: 5px;
+}
 
 #life-control {
     text-align: center;
