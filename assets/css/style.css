@@ -13,7 +13,7 @@
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #616161;
 }
 
 /*headings and logo*/
@@ -47,22 +47,16 @@ li {
     display: block;
     margin: 0 auto;
     /* Center horizontally */
-    max-width: 300px;
+    max-width: 400px;
     /* Adjust the max-width as needed */
     text-decoration: underline white;
-    font-weight: 300;
+    font-weight: 400;
     font-family: Montserrat;
     text-transform: uppercase;
     letter-spacing: 8px;
     color: crimson;
-    text-transform: uppercase;
-}
-
-.logo i {
-    font-size: 300%;
-    margin: 5px;
-    padding: 1%;
-    color: crimson;
+    text-align: center;
+    line-height: 100px;
 }
 
 
@@ -71,7 +65,7 @@ li {
 }
 
 nav {
-    background-color: #333;
+    background-color: #616161;
     color: #fff;
     padding: 5px;
     height: 10%;
@@ -99,9 +93,6 @@ nav a {
     color: #fff;
 }
 
-#logo {
-    line-height: 100px;
-}
 
 #menu a:hover {
     border-bottom: 1px solid white;
@@ -111,11 +102,11 @@ nav a {
     display: block;
     margin: 0 auto;
     /* Center horizontally */
-    max-width: 400px;
+    max-width: 500px;
     /* Adjust the max-width as needed */
     background-color: white;
     /* Set a background color for the logo */
-    transform: scale(0);
+    transform: scale(1);
     /* Start with a scaled-down size */
     animation: logo-animation 1s ease-in-out forwards;
     /* Apply the scale animation */
@@ -137,7 +128,7 @@ nav a {
     width: 100%;
     background: url('../images/pexels-photo-707676.jpeg');
     opacity: 0.5;
-    background-color: rgba(255, 0, 0, )
+    background-color: rgba(255, 0, 0, );
 }
 
 .main-image-text {
@@ -187,7 +178,7 @@ nav a {
     display: block;
     width: 100%;
     height: 3px;
-    background-color: #333;
+    background-color: #616161;
     position: absolute;
     left: 0;
     bottom: -3px;
@@ -221,6 +212,10 @@ nav a {
     padding: 20px;
 }
 
+img {
+    margin: 25px;
+}
+
 .website-left,
 .website-right {
     display: flex;
@@ -228,19 +223,15 @@ nav a {
     gap: 25px;
 }
 
-.logo-footer {
+#logo-footer {
+    text-align: center;
     margin: 0;
     font-size: 24px;
     font-weight: bold;
     color: #fff;
 }
 
-div i {
-    font-size: 4rem;
-    /* Adjust the size as needed */
-    margin: 0 0.5rem;
-    /* Add some spacing between icons */
-}
+
 
 .website-left a,
 .website-right a {
@@ -264,7 +255,7 @@ div i {
 
 footer {
     height: 200px;
-    background-color: #333;
+    background-color: #616161;
     color: #fff;
     text-align: center;
     margin-bottom: 0;
@@ -273,6 +264,32 @@ footer {
 footer p {
     line-height: 10px;
     margin-bottom: 10px;
+}
+
+.footer-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-wrapper .footer-adiv .btn.btn-footer {
+    padding: 16px;
+    border-radius: 99px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .2);
+    transition: .3s ease;
+}
+
+.footer-wrapper .footer-adiv .btn.btn-footer:hover {
+    color: #fff;
+    font-weight: bold;
 }
 
 /*sign up with email*/
@@ -321,7 +338,7 @@ main {
 .column {
     flex-grow: 0;
     text-align: center;
-    background-color: #333;
+    background-color: #616161;
     width: calc(33.3% - 30px);
     height: 5rem;
     margin: 10px;
@@ -329,6 +346,11 @@ main {
 
 .column:hover {
     transform: scale(1.025);
+}
+
+.column-long {
+    flex: 2;
+    color: #616161;
 }
 
 div h3 {
@@ -357,7 +379,63 @@ h3 a:hover {
     color: white;
     text-align: center;
     font-size: 150%;
+    background-color: #616161;
+}
+
+/* sign up form */
+
+.container-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../images/pexels-photo-714701.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.signup-form {
+    border: 2px solid #616161;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 0 auto;
+    /* Add this line to center the form */
+    max-width: 400px;
+    /* Add this line to limit the form width */
+}
+
+.signup-form h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
     background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
 }
 
 /* Media queries for mobile and tablet */
