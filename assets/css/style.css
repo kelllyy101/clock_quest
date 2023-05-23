@@ -336,12 +336,12 @@ main {
 }
 
 .column {
-    flex-grow: 0;
+    flex-grow: 1;
     text-align: center;
     background-color: #616161;
     width: calc(33.3% - 30px);
-    height: 5rem;
     margin: 10px;
+    height: auto;
 }
 
 .column:hover {
