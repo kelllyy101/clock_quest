@@ -36,6 +36,7 @@ h2 {
 
 p {
     text-align: center;
+    margin: auto;
 }
 
 li {
@@ -153,7 +154,7 @@ nav a {
     z-index: 2;
     height: 50%;
     width: 80%;
-    margin-top: 5%;
+    margin-top: 10%;
     padding: 5px;
     text-align: center;
 }
@@ -234,9 +235,11 @@ nav a {
     color: #fff;
 }
 
-.logo-footer i {
-    font-size: 20px;
-    margin-left: 10px;
+div i {
+    font-size: 4rem;
+    /* Adjust the size as needed */
+    margin: 0 0.5rem;
+    /* Add some spacing between icons */
 }
 
 .website-left a,
@@ -256,7 +259,7 @@ nav a {
     height: 5px;
     width: 100%;
     background-color: crimson;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 footer {
@@ -264,8 +267,12 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    bottom: 0;
-    left: ;
+    margin-bottom: 0;
+}
+
+footer p {
+    line-height: 10px;
+    margin-bottom: 10px;
 }
 
 /*sign up with email*/
@@ -282,25 +289,46 @@ footer {
 .button-zoom {}
 
 /*app menu*/
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    margin: 10px 0;
+    flex-grow: 1;
+}
+
 .website-row {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .column {
+    flex-grow: 0;
     text-align: center;
-    justify-content: space-between;
-    flex-basis: 33%;
     background-color: #333;
-    float: left;
-    width: 33.3%;
+    width: calc(33.3% - 30px);
     height: 5rem;
-    transition: all 2sease-in-out;
+    margin: 10px;
 }
 
-.app-column:hover {
-    transform: scale(1.1);
+.column:hover {
+    transform: scale(1.025);
 }
 
 div h3 {
