@@ -490,6 +490,45 @@ button[type="submit"]:hover {
     p {
         font-size: 14px;
     }
+
+    #main-image-text {
+        size: 65%;
+        float: center;
+    }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px)
+@media screen (max-width: 950px) {
+
+    header h1 {
+        font-size: 16px;
+    }
+
+    main {
+        margin: 12px;
+        padding: 0;
+    }
+
+    section {
+        margin-bottom: 12px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    #main-image-text {
+        size: 40%;
+        float: center;
+    }
+
+    #menu {
+        max-width: 950px;
+        size: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+}
