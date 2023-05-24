@@ -142,9 +142,7 @@ nav a {
     font-weight: bold;
     border: 5px solid #f1f1f1;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
     z-index: 2;
     height: 50%;
     width: 80%;
@@ -523,23 +521,16 @@ button[type="submit"]:hover {
         float: center;
     }
 
-    #menu {
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-        background-color: #616161;
+    #menu li {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+        /* Adjust the vertical spacing between links */
     }
 
     #menu a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
+        display: inline-block;
+        width: 100%;
     }
-
-    footer {}
+}
 }
