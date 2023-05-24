@@ -318,8 +318,6 @@ img {
     padding: 10px;
 }
 
-.button-zoom {}
-
 /*app menu*/
 body {
     font-family: Montserrat, sans-serif;
@@ -526,9 +524,22 @@ button[type="submit"]:hover {
     }
 
     #menu {
-        max-width: 950px;
-        size: 40%;
+        margin: auto;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
+        background-color: #616161;
     }
+
+    #menu a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    footer {}
 }
