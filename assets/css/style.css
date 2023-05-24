@@ -115,6 +115,24 @@ nav a {
     /* Apply the scale animation */
 }
 
+article {
+    text-align: center;
+}
+
+article h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    color: crimson;
+}
+
+.focus {
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
 @keyframes logo-animation {
     from {
         transform: scale(0);
@@ -131,7 +149,6 @@ nav a {
     width: 100%;
     background: url('../images/pexels-photo-707676.jpeg');
     opacity: 0.5;
-    background-color: rgba(255, 0, 0, );
 }
 
 .main-image-text {
@@ -142,7 +159,9 @@ nav a {
     font-weight: bold;
     border: 5px solid #f1f1f1;
     position: absolute;
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 2;
     height: 50%;
     width: 80%;
@@ -221,13 +240,14 @@ footer {
     color: #fff;
     text-align: center;
     align-items: flex-end;
+    margin-top: 20px;
 }
 
 footer p {
     line-height: 10px;
-    margin-bottom: 10px;
     color: white;
     margin: 0;
+    padding: 0;
 }
 
 .footer-wrapper {
@@ -487,13 +507,10 @@ button[type="submit"]:hover {
         font-size: 14px;
     }
 
-    #main-image-text {
-        size: 65%;
-        float: center;
-    }
+
 }
 
-@media screen (max-width: 950px) {
+@media screen and (max-width: 950px) {
 
     header h1 {
         font-size: 16px;
@@ -517,20 +534,27 @@ button[type="submit"]:hover {
     }
 
     #main-image-text {
-        size: 40%;
-        float: center;
+        float: left;
     }
 
-    #menu li {
-        display: block;
-        text-align: center;
-        margin-bottom: 10px;
-        /* Adjust the vertical spacing between links */
+    #menu {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        resize: vertical;
+        overflow: hidden;
+        background-color: #616161;
     }
 
     #menu a {
-        display: inline-block;
-        width: 100%;
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
     }
-}
+
+    footer {}
 }
