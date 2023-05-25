@@ -228,18 +228,21 @@ div p {
 
 #life-control-1 {
     text-align: center;
+    color: white;
+    margin: 50px 0;
+    font-size: 150%;
+}
+
+#life-control-2 {
+    text-align: center;
+    color: white;
     margin: 50px 0;
     font-size: 150%;
 }
 
 #life-control-3 {
     text-align: center;
-    margin: 50px 0;
-    font-size: 150%;
-}
-
-#life-control-3 {
-    text-align: center;
+    color: white;
     margin: 50px 0;
     font-size: 150%;
 }
@@ -463,9 +466,9 @@ a {
 }
 
 .article-border {
-    border-width: 3px;
+    border-width: 1px;
     border-style: solid;
-    border-color: #616161;
+    border-color: #bbbbbb;
     margin: 5px;
     text-align: center;
 }
@@ -599,8 +602,15 @@ button[type="submit"]:hover {
     }
 
     footer {
+
         img {
             margin: auto;
+        }
+
+        .website-left,
+        .website-right {
+            margin: 0 auto;
+            padding: 0;
         }
     }
 }
