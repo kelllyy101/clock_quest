@@ -176,11 +176,6 @@ h6 {
     float: left;
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 
 /*banners*/
@@ -602,15 +597,42 @@ button[type="submit"]:hover {
     }
 
     footer {
+        max-height: auto;
+        max-width: auto;
+        padding: 0;
+    }
 
-        img {
-            margin: auto;
-        }
+    footer img {
+        max-width: 20px;
+        max-height: 20px;
+        float: left;
+        margin-left: 0;
+        display: inline-flex;
+    }
 
-        .website-left,
-        .website-right {
-            margin: 0 auto;
-            padding: 0;
-        }
+    .website-left,
+    .website-right {
+        max-width: 20px;
+        max-height: 20px;
+        float: left;
+        margin-left: 0;
+        display: flex;
+        justify-content: flex-start;
+        gap: 0px;
+    }
+
+    .website-right {}
+
+    .logo-footer {
+        display: none;
+    }
+
+    .footer-wrapper {
+        max-height: 20px;
+    }
+
+    .column {
+        resize: vertical;
+        height: auto;
     }
 }
