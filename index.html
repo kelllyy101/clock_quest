@@ -14,25 +14,24 @@
 
 <body>
     <nav class="navbar">
-        <div><a href="index.html">
-                <h1 id="logo" class="logo">ClockQuest</h1>
-            </a>
-        </div>
+        <a href="index.html">
+            <h1 id="logo" class="logo">ClockQuest</h1>
+        </a>
         <ul class="nav-links">
-            <li class="menu-link">
+            <li class="active">
                 <a href="skills.html">Skills</a>
             </li>
-            <li class="menu-link">
+            <li class="active">
                 <a href="focus.html">Focus</a>
             </li>
-            <li class="menu-link">
+            <li class="active">
                 <a href="apps.html">Apps</a>
             </li>
-            <li class="menu-link">
+            <li class="active">
                 <a href="signup.html">About</a>
             </li>
-
         </ul>
+        <img src="./assets/images/menu_button.webp" alt="Menu" class="menu-button">
     </nav>
 
     <header>
@@ -42,9 +41,20 @@
             <h2>Have A Never Ending To Do List?</h2>
             <div class="line"></div>
             <h2>Want To Be Productive?</h2>
-            <a href="#" class="learnmorebtn">About</a>
+            <a href="#" class="learnmorebtn">Increase Productivity</a>
         </div>
     </header>
+    <script>
+        const menubutton = document.querySelector('.menu-button');
+        const navlinks = document.querySelector('.nav-links');
+
+        menubutton.addEventListener('click', () => {
+            navlinks.classlist.toggle('mobile-menu');
+        })
+    </script>
+
+
+
 
     <footer class="container">
         <div class="website-row">
