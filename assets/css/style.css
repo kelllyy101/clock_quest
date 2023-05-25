@@ -226,7 +226,19 @@ div p {
     padding: 5px;
 }
 
-#life-control {
+#life-control-1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 150%;
+}
+
+#life-control-3 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 150%;
+}
+
+#life-control-3 {
     text-align: center;
     margin: 50px 0;
     font-size: 150%;
@@ -402,13 +414,35 @@ a {
     text-decoration: none;
 }
 
-#app-link {
+#app-link-todoist {
     padding-top: 20px;
     color: white;
     text-decoration: none;
 }
 
-#app-link:hover {
+#app-link-toggl {
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#app-link-clickup {
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#app-link-todoist:hover {
+    color: crimson;
+    text-decoration: none;
+}
+
+#app-link-toggl:hover {
+    color: crimson;
+    text-decoration: none;
+}
+
+#app-link-clickup:hover {
     color: crimson;
     text-decoration: none;
 }
@@ -426,6 +460,14 @@ a {
     text-align: center;
     font-size: 150%;
     background-color: #616161;
+}
+
+.article-border {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #616161;
+    margin: 5px;
+    text-align: center;
 }
 
 /* sign up form */
@@ -556,5 +598,9 @@ button[type="submit"]:hover {
         font-size: 17px;
     }
 
-    footer {}
+    footer {
+        img {
+            margin: auto;
+        }
+    }
 }
