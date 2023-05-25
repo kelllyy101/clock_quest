@@ -19,15 +19,15 @@ Clock Quest
 
 ### Project Inspection
 
-Clock Quest is a web application aimed at providing an immersive and educational experience for users to explore and interact with different types of clocks. The goal of the project is to create an engaging platform that showcases a diverse collection of clock displays and offers interactive features for users to learn about timekeeping.
+Clock Quest is a web application aimed at providing an immersive and educational experience for users to improve productivity. The goal of the project is to create an engaging platform that showcases a diverse collection of pages of tips and interactive features for users to learn about timekeeping, productivity and efficiency.
 
 ### Project Statement
 
-The purpose of Clock Quest is to foster curiosity and appreciation for various timekeeping methods. By offering an interactive and visually appealing platform, we aim to create an enjoyable learning experience for users of all ages.
+The purpose of Clock Quest is to foster curiosity and appreciation for various timekeeping methods. By offering an interactive and visually appealing platform, we aim to create an enjoyable learning experience for users of all ages, supplying them with skills, focus methods and apps to help achieve their time management goal.
 
 ### Target Audience
 
-Clock Quest targets individuals interested in horology, history, and unique clock designs. The application is suitable for hobbyists, students, and anyone curious about different ways to measure and display time.
+Clock Quest targets individuals interested in improving their time management, daily productivity and timekeeping of life. The application is suitable for hobbyists, students, and anyone curious about different ways to ensure proper time management and proper activity.
 
 ### Learning Goals
 
@@ -36,33 +36,34 @@ The project focuses on achieving the following learning goals:
 - Building a responsive and user-friendly web application
 - Enhancing knowledge of HTML and CSS
 - Incorporating interactive elements using JavaScript
-- Designing visually appealing clock displays
+- Designing visually appealing and clear paragraphs with little to no distractions
 - Implementing accessibility best practices
 
 ### User Stories
 
-- As a user, I want to explore various types of clocks and learn about their history and significance.
-- As a user, I want to interact with the clocks and experience their unique features.
+- As a user, I want to explore various types of methods to help with my daily productivity.
+- As a user, I want to interact with the apps and experience their unique features.
 - As a user, I want to customize the clock displays according to my preferences.
-- As a user, I want to navigate easily between different clock displays using a navigation bar.
+- As a user, I want to navigate easily between different aspects of productivity and time management.
 - As a user, I want to access additional applications related to timekeeping through provided links.
-- As a user, I want to sign up for an account to unlock additional features and receive updates.
+- As a user, I want to sign up for an account to unlock additional features and receive updates from the blog post of the owner.
 
 ### Site Objectives
 
 The main objectives of Clock Quest are as follows:
 
-- Showcase a diverse collection of clock displays with informative descriptions.
-- Offer interactive functionality for select clocks, allowing users to set alarms, adjust time zones, etc.
-- Provide customization options for some clock displays to personalize the user experience.
+- Showcase a diverse range of time management tips with informative descriptions.
+- Offer interactive functionality and advice, also allowing users to engage with apps.
+- Provide customization options for apps to personalize the user experience.
 - Design a visually appealing and intuitive user interface.
 - Ensure the website is accessible to users with disabilities.
+- Ensure a clear two-tone structure replicating a clock for easy legibility.
 
 ### Approach
 
 The project will be developed using the following approach:
 
-1. Conduct research on various types of clocks and gather relevant information.
+1. Conduct research on various types of time management and gather relevant information.
 2. Create wireframes and design mockups to plan the layout and user interface.
 3. Define a color scheme that aligns with the application's aesthetic and enhances user experience.
 4. Select typography that complements the overall design and improves readability.
@@ -75,21 +76,25 @@ The project will be developed using the following approach:
 
 Please refer to the wireframes and color scheme documents provided separately.
 
+*add screenshots*
+
 ## Features
 
 Clock Quest includes the following key features:
 
 - Main logo: A visually appealing and representative logo to establish the brand identity.
-- Navigation bar: A persistent navigation bar for easy access to different clock displays and related applications.
+- Navigation bar: A persistent navigation bar for easy access to different pages with a different focus in each, related applications and an about sign-up page.
 - Links to different apps: Additional applications related to timekeeping, providing users with a comprehensive experience.
-- Sign-up form: Users can create accounts to unlock additional features and receive updates.
-- Footer: A footer section containing relevant information and links to social media platforms.
+- Sign-up form: Users can create accounts to unlock additional features and receive updates from the owner of the site.
+- Footer: A footer section containing relevant information and links to social media platforms where you learn more about time management.
 
 Possible Future Features:
 
-- User profiles: Allow users to customize their profiles and save preferences.
-- Social sharing: Enable users to share their favorite clocks or clock designs on social media.
+- User profiles: Allow users to customize their profiles and save preferences or take snippets of the advise text to keep in their personal journal.
+- Social sharing: Enable users to share their favorite apps and tips on social media.
 - Interactive quizzes: Include quizzes to test users' knowledge about timekeeping methods.
+- A survery would be a good way to see what the website is missing, for example, "What would you like to see more of?", and then a list of possible answers to do with time management, productivity, focus and wellness.
+- More engagement with social media to reach more people.
 
 ## Testing
 
@@ -127,10 +132,19 @@ Clock Quest primarily utilizes the following programming languages:
 
 The following software and tools were used in the development of Clock Quest:
 
-- Code editor (e.g., Visual Studio Code, Sublime Text, Atom)
+- Code editor (e.g., Visual Studio Code and Code Anywhere)
 - Version control system (e.g., Git)
 - Web browsers (e.g., Chrome, Firefox, Safari)
 - Lighthouse (for performance and accessibility testing)
+- Font Awesome (Font awesome Icons are used for the Social media links contained in the Footer section of the website.)
+- Google Fonts(Google fonts are used throughout the project to import the Libre Baskerville and Cabin fonts.)
+- Visual Studio Code (VS Code is the Integrated Development Environment used to develop the Website.)
+- GitHub (GithHub is the hosting site used to store the source code for the Website and Git Pages is used for the deployment of the live site.)
+- Git (Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.)
+- Google Chrome Developer Tools (Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.)
+- balsamiq Wireframes (This was used to create wireframes for 'The Skeleton Plane' stage of UX design.).
+- CSS Generator (This was used to convert the RGBA colour for the site to Hex.
+- Techsini (tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README)
 
 ## Media
 
@@ -140,10 +154,10 @@ All media assets, including images and icons, were either created specifically f
 
 We would like to express our gratitude to the following individuals and resources:
 
-- [Name/Resource](Link): Description of their contribution or assistance.
-- [Name/Resource](Link): Description of their contribution or assistance.
+- [CodePen](https://codepen.io/search/pens?q=animated+underline): Various CSS styling effects.
+- [w3s](https://www.w3schools.com/html/): various HTML elements, such as attritutes, semantics and forms.
 
-Special thanks to the Clock Quest development team for their dedication and efforts in creating this project.
+Special thanks to Code Institure and my mentor for their dedication and efforts in creating this project.
 
 
 

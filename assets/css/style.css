@@ -534,7 +534,7 @@ button[type="submit"]:hover {
     }
 
     #main-image-text {
-        float: left;
+        display: none;
     }
 
     #menu {
