@@ -5,87 +5,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="time management, busy, organise">
-
+    <meta name="keywords" content="time management, busy, organise, productivity">
+    <meta name="description"
+        content="time management, busy life, organise your life, increase productivity, focus on your daily tasks">
     <link rel="stylesheet" href="assets/css/style.css">
     <title> ClockQuest </title>
 </head>
 
-<header>
-    <div><a href="index.html">
+<body>
+    <nav class="navbar">
+        <a href="index.html">
             <h1 id="logo" class="logo">ClockQuest</h1>
         </a>
-    </div>
-    <nav>
-        <ul id="menu">
-            <li>
+        <ul class="nav-links">
+            <li class="active">
                 <a href="skills.html">Skills</a>
             </li>
-            <li>
+            <li class="active">
                 <a href="focus.html">Focus</a>
             </li>
-            <li>
+            <li class="active">
                 <a href="apps.html">Apps</a>
             </li>
-            <li>
+            <li class="active">
                 <a href="signup.html">About</a>
             </li>
-
         </ul>
+        <img src="./assets/images/menu-button.webp" alt="Menu" class="menu-button">
     </nav>
-</header>
-<main>
-    <section>
-        <div class="container-signup">
-            <form class="signup-form">
-                <h2>Sign Up</h2>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </div>
-                <button type="submit">Sign Up To Find Out More</button>
-            </form>
-        </div>
-    </section>
-    <footer class="container">
-        <div class="website-row">
-            <div class="website-left">
-                <a href="https://play.google.com/store/games" title="Google Play Store" target="_blank" rel="noopener"
-                    aria-label="Visit Google PlayStore (opens in a new tab)"><img src="assets/images/play-button.png"
-                        alt="Google Play Icon" width="50" height="50"></a>
-                <a href="https://twitter.com" title="Twitter" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><img src="assets/images/twitter1.png"
-                        alt="Twitter Icon" width="50" height="50"></a>
+    <script>
+        const menubutton = document.querySelector('.menu-button');
+        const navlinks = document.querySelector('.nav-links');
+
+        menubutton.addEventListener('click', () => {
+            navlinks.classlist.toggle('mobile-menu');
+        })
+    </script>
+    <main>
+        <section>
+            <div class="container-signup">
+                <form class="signup-form">
+                    <h2>Sign Up</h2>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <button type="submit">Sign Up To Find Out More</button>
+                </form>
             </div>
-            <div>
-                <a href="index.html">
-                    <h1 id="logo-footer" class="logo-footer">ClockQuest</h1>
-                </a>
-                <div class="footer-wrapper">
-                    <div class="footer-adiv">
-                        <a href="signup.html" class="btn btn-footer">Sign Up Now</a>
+        </section>
+        <footer class="container">
+            <div class="website-row">
+                <div class="website-left">
+                    <a href="https://play.google.com/store/games" title="Google Play Store" target="_blank"
+                        rel="noopener" aria-label="Visit Google PlayStore"><img src="assets/images/play-button.png"
+                            alt="Google Play Icon" width="50" height="50"></a>
+                    <a href="https://twitter.com" title="Twitter" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page"><img src="assets/images/twitter1.png" alt="Twitter Icon"
+                            width="50" height="50"></a>
+                </div>
+                <div>
+                    <a href="index.html">
+                        <h1 id="logo-footer" class="logo-footer">ClockQuest</h1>
+                    </a>
+                    <div class="footer-wrapper">
+                        <div class="footer-adiv">
+                            <a href="signup.html" class="btn btn-footer">Sign Up Now</a>
+                        </div>
                     </div>
                 </div>
+                <div class="website-right">
+                    <a href="https://youtube.com" target="_blank" title="YouTube" rel=" noopener"
+                        aria-label="Visit our YouTube page"><img src="assets/images/Youtube(1).png" alt="YouTube Icon"
+                            width="50" height="50"></a>
+                    <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fwordpress.com%2F" title="WordPress"
+                        target="_blank" rel="noopener" aria-label="Visit my WordPress Blog"><img
+                            src="assets/images/wordpress.png" alt="WordPress Icon" width="50" height="50"></a>
+                </div>
             </div>
-            <div class="website-right">
-                <a href="https://youtube.com" target="_blank" title="YouTube" rel=" noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><img src="assets/images/Youtube(1).png"
-                        alt="YouTube Icon" width="50" height="50"></a>
-                <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fwordpress.com%2F" title="WordPress"
-                    target="_blank" rel="noopener" aria-label="Visit my WordPress Blog (opens in a new tab)"><img
-                        src="assets/images/wordpress.png" alt="WordPress Icon" width="50" height="50"></a>
+            <div class="row">
+                <div>
+                    <p>&copy; 2023 My Website. All rights reserved.</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div>
-                <p>&copy; 2023 My Website. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-</main>
+        </footer>
+    </main>
 
 </html>

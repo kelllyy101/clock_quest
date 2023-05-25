@@ -5,35 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="time management, busy, organise">
-
+    <meta name="keywords" content="time management, busy, organise, productivity">
+    <meta name="description"
+        content="time management, busy life, organise your life, increase productivity, focus on your daily tasks">
     <link rel="stylesheet" href="assets/css/style.css">
     <title> ClockQuest </title>
 </head>
 
 <body>
+    <nav class="navbar">
+        <a href="index.html">
+            <h1 id="logo" class="logo">ClockQuest</h1>
+        </a>
+        <ul class="nav-links">
+            <li class="active">
+                <a href="skills.html">Skills</a>
+            </li>
+            <li class="active">
+                <a href="focus.html">Focus</a>
+            </li>
+            <li class="active">
+                <a href="apps.html">Apps</a>
+            </li>
+            <li class="active">
+                <a href="signup.html">About</a>
+            </li>
+        </ul>
+        <img src="./assets/images/menu-button.webp" alt="Menu" class="menu-button">
+    </nav>
+
     <header>
-        <div><a href="index.html">
-                <h1 id="logo" class="logo">ClockQuest</h1>
-            </a>
-        </div>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="skills.html">Skills</a>
-                </li>
-                <li>
-                    <a href="focus.html">Focus</a>
-                </li>
-                <li>
-                    <a href="apps.html">Apps</a>
-                </li>
-                <li>
-                    <a href="signup.html">About</a>
-                </li>
-            </ul>
-        </nav>
+        <wrapper>
+            <div class="main-text-image">
+                <h2>Losing Track Of Your Time?</h2>
+                <div class="line"></div>
+                <h2>Have A Never Ending To Do List?</h2>
+                <div class="line"></div>
+                <h2>Want To Be Productive?</h2>
+                <br>
+                <a href="signup.html" class="learnmorebtn">Increase Productivity</a>
+            </div>
+        </wrapper>
     </header>
+    <script>
+        const menubutton = document.querySelector('.menu-button');
+        const navlinks = document.querySelector('.nav-links');
+
+        menubutton.addEventListener('click', () => {
+            navlinks.classlist.toggle('mobile-menu');
+        })
+    </script>
+
+
+
     <main>
         <div class="website-row">
             <div class="column">

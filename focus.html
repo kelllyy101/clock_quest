@@ -5,36 +5,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="time management, busy, organise">
-
+    <meta name="keywords" content="time management, busy, organise, productivity">
+    <meta name="description"
+        content="time management, busy life, organise your life, increase productivity, focus on your daily tasks">
     <link rel="stylesheet" href="assets/css/style.css">
     <title> ClockQuest </title>
 </head>
 
 <body>
-    <header>
-        <div><a href="index.html">
-                <h1 id="logo" class="logo">ClockQuest</h1>
-            </a>
-        </div>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="skills.html">Skills</a>
-                </li>
-                <li>
-                    <a href="focus.html">Focus</a>
-                </li>
-                <li>
-                    <a href="apps.html">Apps</a>
-                </li>
-                <li>
-                    <a href="signup.html">About</a>
-                </li>
+    <nav class="navbar">
+        <a href="index.html">
+            <h1 id="logo" class="logo">ClockQuest</h1>
+        </a>
+        <ul class="nav-links">
+            <li class="active">
+                <a href="skills.html">Skills</a>
+            </li>
+            <li class="active">
+                <a href="focus.html">Focus</a>
+            </li>
+            <li class="active">
+                <a href="apps.html">Apps</a>
+            </li>
+            <li class="active">
+                <a href="signup.html">About</a>
+            </li>
+        </ul>
+        <img src="./assets/images/menu-button.webp" alt="Menu" class="menu-button">
+    </nav>
 
-            </ul>
-        </nav>
+    <header>
+        <wrapper>
+            <div class="main-text-image">
+                <h2>Losing Track Of Your Time?</h2>
+                <div class="line"></div>
+                <h2>Have A Never Ending To Do List?</h2>
+                <div class="line"></div>
+                <h2>Want To Be Productive?</h2>
+                <br>
+                <a href="signup.html" class="learnmorebtn">Increase Productivity</a>
+            </div>
+        </wrapper>
     </header>
+    <script>
+        const menubutton = document.querySelector('.menu-button');
+        const navlinks = document.querySelector('.nav-links');
+
+        menubutton.addEventListener('click', () => {
+            navlinks.classlist.toggle('mobile-menu');
+        })
+    </script>
+
     <section class="article-border">
         <h2>FOCUS</h2>
         <div>
@@ -54,24 +75,28 @@
                     When you focus, you eliminate distractions and channel your mental resources towards the task at
                     hand.
                     This deep
-                    level of concentration allows you to work efficiently, solve problems effectively, and achieve your
+                    level of concentration allows you to work efficiently, solve problems effectively, and achieve
+                    your
                     desired
                     outcomes.
                     To enhance your focus, consider the following strategies:
 
                 </p>
                 <h4>TIME BLOCK</h4>
-                <p>Time Blocking: Implement the practice of time blocking, where you allocate specific blocks of time
+                <p>Time Blocking: Implement the practice of time blocking, where you allocate specific blocks of
+                    time
                     for
                     different
-                    activities or tasks. Set aside dedicated time slots for focused work, meetings, breaks, and personal
+                    activities or tasks. Set aside dedicated time slots for focused work, meetings, breaks, and
+                    personal
                     activities. By
                     planning your day in advance and sticking to a schedule, you can optimize your time and avoid
                     distractions.
                 </p>
                 <h4>FOLLOW THESE STEPS</h4>
                 <ol>
-                    <li>Avoid multitasking: Instead of trying to juggle multiple tasks simultaneously, focus on one task
+                    <li>Avoid multitasking: Instead of trying to juggle multiple tasks simultaneously, focus on one
+                        task
                         at
                         a time. This
                         allows you to give your full attention to each task and complete them more effectively.</li>
@@ -82,10 +107,12 @@
                         direction
                         helps you
                         maintain focus and prioritize your efforts.</li>
-                    <li>Take regular breaks: Breaks are essential for maintaining focus and preventing burnout. Schedule
+                    <li>Take regular breaks: Breaks are essential for maintaining focus and preventing burnout.
+                        Schedule
                         short breaks in
                         between work sessions to recharge your mind and improve overall productivity.</li>
-                    <li>Practice mindfulness: Cultivate mindfulness techniques, such as deep breathing or meditation, to
+                    <li>Practice mindfulness: Cultivate mindfulness techniques, such as deep breathing or
+                        meditation, to
                         train your mind
                         to stay present and focused. Mindfulness exercises can help improve concentration and reduce
                         mental
