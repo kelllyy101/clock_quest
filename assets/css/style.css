@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: crimson;
     letter-spacing: 5px;
     text-align: center;
 }
@@ -55,6 +55,7 @@ header {
     background: crimson;
     border-radius: 30px;
     color: white;
+    float: bottom;
 }
 
 ul {
