@@ -494,10 +494,14 @@ button[type="submit"]:hover {
     }
 
     .main-text-image {
-        width: auto;
+        max-width: 50%;
+        max-height: 50%;
         padding: auto;
-        margin: 0;
+        margin: 20px;
 
+    }
+    .main-text-image h2{
+        font-size: 85%;
     }
     .first-main-page-image{
         display: none;
