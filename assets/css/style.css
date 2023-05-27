@@ -481,15 +481,16 @@ button[type="submit"]:hover {
         width: 100%;
         height: auto;
         justify-content: center;
-        background-color: #616161;
+        background-color: white;
         overflow: hidden;
     }
     .nav-links a {
-        color: white;
+        color: crimson;
     }
 
     .nav-links li {
         margin: 5px auto;
+        border-bottom: 1px solid crimson;
     }
 
     .main-text-image {
