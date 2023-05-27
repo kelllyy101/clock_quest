@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
     padding: 0px; /*changed last night to fix footer was at 10px*/
@@ -70,6 +74,9 @@ header {
     color: white;
     float: bottom;
 }
+
+a .learnmorebtn:hover {
+    background-color: #555;}
 
 ul {
     list-style: none;
@@ -150,38 +157,34 @@ ul {
 .hover-container:hover:before {
     transform: scale(1);
 }
-
-/*time management main section with 3 paragraphs*/
-div p {
-    color: #616161;
-    font-size: 18px;
-    line-height: 1.0;
-    margin-top: 0;
-    margin-bottom: 30px;
-    text-align: center;
-    padding: 5px;
+/**/
+/*time management main page section with 3 paragraphs and images*/
+.main-page-info {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px;
 }
 
-#life-control-1 {
-    text-align: center;
-    color: white;
-    margin: 50px 0;
-    font-size: 150%;
+.first-column-text {
+    flex: 1;
+    float: left;
+    text-align: left;
+    width: 50%;
+    margin-left: 10px;
 }
 
-#life-control-2 {
-    text-align: center;
-    color: white;
-    margin: 50px 0;
-    font-size: 150%;
+.first-main-page-image {
+    flex: 1;
+    float: right;
+    text-align: right;
+    height: auto;
+    margin-right: 10px;
+}
+.main-page-info h2 {
+    color: crimson;
 }
 
-#life-control-3 {
-    text-align: center;
-    color: white;
-    margin: 50px 0;
-    font-size: 150%;
-}
 
 /*footer*/
 footer {
@@ -486,7 +489,7 @@ button[type="submit"]:hover {
     }
 
     .nav-links li {
-        margin: 30px auto;
+        margin: 5px auto;
     }
 
     .main-text-image {
@@ -495,4 +498,8 @@ button[type="submit"]:hover {
         margin: 0;
 
     }
+    .first-main-page-image{
+        display: none;
+    }
+
     footer {        max-height: auto;        max-width: auto;        padding: 0;    }    footer img {        max-width: 20px;        max-height: 20px;        float: left;        margin-left: 0;        display: inline-flex;    }    .website-left,    .website-right {        max-width: 20px;        max-height: 20px;        float: left;        margin-left: 0;        display: flex;        justify-content: flex-start;        gap: 0px;    }    .website-left {margin-left: 2px;}    .logo-footer {        display: none;    }    .footer-wrapper {        max-height: 20px;    }    .column {        resize: vertical;        height: auto;    }}
