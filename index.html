@@ -13,50 +13,40 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="active">
-            <a href="index.html">
-                <h1 id="logo" class="logo">ClockQuest</h1>
-            </a>
-            <ul class="nav-links">
-                <li id="active" class="active">
-                    <a href="skills.html">Skills</a>
-                </li>
-                <li class="active">
-                    <a href="focus.html">Focus</a>
-                </li>
-                <li class="active">
-                    <a href="apps.html">Apps</a>
-                </li>
-                <li class="active">
-                    <a href="signup.html">About</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
     <header>
-        <wrapper>
-            <div class="main-text-image">
-                <h2>Losing Track Of Your Time?</h2>
-                <div class="line"></div>
-                <h2>Have A Never Ending To Do List?</h2>
-                <div class="line"></div>
-                <h2>Want To Be Productive?</h2>
-                <br>
-                <a href="signup.html" class="learnmorebtn">Learn More</a>
+        <nav class="navbar">
+            <div class="active">
+                <a href="index.html">
+                    <h1 id="logo" class="logo">ClockQuest</h1>
+                </a>
+                <ul class="nav-links">
+                    <li id="active" class="active">
+                        <a href="skills.html">Skills</a>
+                    </li>
+                    <li class="active">
+                        <a href="focus.html">Focus</a>
+                    </li>
+                    <li class="active">
+                        <a href="apps.html">Apps</a>
+                    </li>
+                    <li class="active">
+                        <a href="signup.html">About</a>
+                    </li>
+                </ul>
             </div>
-        </wrapper>
+        </nav>
     </header>
-    <script>
-        const menubutton = document.querySelector('.menu-button');
-        const navlinks = document.querySelector('.nav-links');
-
-        menubutton.addEventListener('click', () => {
-            navlinks.classlist.toggle('mobile-menu');
-        })
-    </script>
-
+    <section id="main-image-section">
+        <div class="main-text-image">
+            <h2>Losing Track Of Your Time?</h2>
+            <div class="line"></div>
+            <h2>Have A Never Ending To Do List?</h2>
+            <div class="line"></div>
+            <h2>Want To Be Productive?</h2>
+            <br>
+            <a href="signup.html" class="learnmorebtn">Learn More</a>
+        </div>
+    </section>
 
 
 

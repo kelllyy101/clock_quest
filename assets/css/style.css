@@ -19,6 +19,12 @@ a {
 }
 
 header {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#main-image-section {
     width: 100vw;
     height: 100vh;
     background-image: url(../images/mac_book.jpg);
@@ -32,12 +38,12 @@ header {
     text-align: center;
 }
 
-.header-content {
+.main-text-image {
     margin-bottom: 200px;
     color: white;
 }
 
-.header-content h2 {
+.main-text-image h2 {
     font-size: 6vmin;
     text-align: center;
 }
@@ -50,7 +56,7 @@ header {
     border-radius: 5px;
 }
 
-.header-content h1 {
+.main-text-image h1 {
     font-size: 15vmin;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -81,25 +87,27 @@ ul {
 
 /*nav bar*/
 .navbar {
-    position: absolute;
+    align-items: flex-start;
     top: 0;
     left: 0;
     display: inline-block;
     width: 100%;
-    justify-content: space-between;
     padding: 20px;
     color: white;
+    align-items: center;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
+    float: right;
 }
 
 .nav-links li {
     margin: 0 30px;
     color: crimson;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .nav-links li a:hover {
@@ -113,7 +121,8 @@ ul {
 }
 
 
-*banners*/.hover-container {
+/*banners*/
+.hover-container {
     text-align: center;
     border-bottom: 3px solid crimson;
     font-size: 1em;
@@ -459,9 +468,9 @@ button[type="submit"]:hover {
     }
 
     .logo {
-        position: absolute;
         top: 30px;
         left: 30px;
+        color: crimson;
     }
 
     .nav-links {
