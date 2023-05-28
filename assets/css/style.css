@@ -507,6 +507,7 @@ button[type="submit"]:hover {
 
 /*media queries*/
 @media screen and (max-width: 950px) {
+    /*navbar*/
     .navbar {
         padding: 0;
         display: block;
@@ -534,7 +535,7 @@ button[type="submit"]:hover {
         margin: 5px auto;
         border-bottom: 1px solid crimson;
     }
-
+/*main text*/
     .main-text-image {
         max-width: 50%;
         max-height: 50%;
@@ -556,5 +557,15 @@ button[type="submit"]:hover {
     margin-left: 20px;
     justify-content: center;
 }
+.wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper-1,
+  .wrapper-2,
+  .wrapper-3 {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }S
 
     footer {        max-height: auto;        max-width: auto;        padding: 0;    }    footer img {        max-width: 20px;        max-height: 20px;        float: left;        margin-left: 0;        display: inline-flex;    }    .website-left,    .website-right {        max-width: 20px;        max-height: 20px;        float: left;        margin-left: 0;        display: flex;        justify-content: flex-start;        gap: 0px;    }    .website-left {margin-left: 2px;}    .logo-footer {        display: none;    }    .footer-wrapper {        max-height: 20px;    }    .column {        resize: vertical;        height: auto;    }}
