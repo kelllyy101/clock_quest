@@ -80,6 +80,7 @@ a .learnmorebtn:hover {
 
 ul {
     list-style: none;
+    color: white;
 }
 
 .main-text-image {
@@ -383,21 +384,6 @@ div.column-long ul li {
     text-decoration: none;
 }
 
-/*skills html*/
-#skills-image {
-    height: 400px;
-    width: 100%;
-    background: url('../images/pexels-photo-s714701.jpeg') no-repeat left;
-    object-fit: cover;
-}
-
-#skills ls-text {
-    color: white;
-    text-align: center;
-    font-size: 150%;
-    background-color: #616161;
-}
-
 .article-border {
     border-width: 1px;
     border-style: solid;
@@ -604,5 +590,7 @@ button[type="submit"]:hover {
     flex-basis: 100%;
     margin-bottom: 20px;
   }
+
+/*apps*/
 
     footer {        max-height: auto;        max-width: auto;        padding: 0;    }    footer img {        max-width: 20px;        max-height: 20px;        float: left;        margin-left: 0;        display: inline-flex;    }    .website-left,    .website-right {        max-width: 20px;        max-height: 20px;        float: left;        margin-left: 0;        display: flex;        justify-content: flex-start;        gap: 0px;    }    .website-left {margin-left: 2px;}    .logo-footer {        display: none;    }    .footer-wrapper {        max-height: 20px;    }    .column {        resize: vertical;        height: auto;    }}
