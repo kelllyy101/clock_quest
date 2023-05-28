@@ -84,6 +84,11 @@ Clock Quest includes the following key features:
 - Access to three videos that help with focusing and reaching your time management goals.
 - Footer: A footer section containing relevant information and links to social media platforms where you learn more about time management.
 
+![Videos embedded](../clock_quest/screenshoots/Captura%20de%20pantalla%20(352).png)
+![sign uo](../clock_quest/screenshoots/Captura%20de%20pantalla%20(353).png)
+![Advice](../clock_quest/screenshoots/Captura%20de%20pantalla%20(354).png)
+![Apps](../clock_quest/screenshoots/Captura%20de%20pantalla%20(355).png)
+
 Possible Future Features:
 
 - User profiles: Allow users to customize their profiles and save preferences or take snippets of the advise text to keep in their personal journal.
@@ -118,6 +123,7 @@ Clock Quest was deployed using the following steps:
 4. Test the deployed website to verify its functionality in the live environment.
 5. Make the website publicly accessible by sharing the appropriate URL.
 
+I have set up an integration with Github Actions to deploy via GitHub Pages.
 
 ## Languages
 
