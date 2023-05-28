@@ -25,6 +25,8 @@ Clock Quest is a web application aimed at providing an immersive and educational
 
 The purpose of Clock Quest is to foster curiosity and appreciation for various timekeeping methods. By offering an interactive and visually appealing platform, we aim to create an enjoyable learning experience for users of all ages, supplying them with skills, focus methods and apps to help achieve their time management goal.
 
+The live website can be found [here](https://kelllyy101.github.io/clock_quest/)
+
 ### Target Audience
 
 Clock Quest targets individuals interested in improving their time management, daily productivity and timekeeping of life. The application is suitable for hobbyists, students, and anyone curious about different ways to ensure proper time management and proper activity.
@@ -46,7 +48,7 @@ The project focuses on achieving the following learning goals:
 - As a user, I want to customize the clock displays according to my preferences.
 - As a user, I want to navigate easily between different aspects of productivity and time management.
 - As a user, I want to access additional applications related to timekeeping through provided links.
-- As a user, I want to sign up for an account to unlock additional features and receive updates from the blog post of the owner.
+- As a user, I want to subscribe to unlock additional features and receive updates from the blog post of the owner.
 
 ### Site Objectives
 
@@ -86,6 +88,7 @@ Clock Quest includes the following key features:
 - Navigation bar: A persistent navigation bar for easy access to different pages with a different focus in each, related applications and an about sign-up page.
 - Links to different apps: Additional applications related to timekeeping, providing users with a comprehensive experience.
 - Sign-up form: Users can create accounts to unlock additional features and receive updates from the owner of the site.
+- Access to three videos that help with focusing and reaching your time management goals.
 - Footer: A footer section containing relevant information and links to social media platforms where you learn more about time management.
 
 Possible Future Features:
@@ -113,13 +116,19 @@ The following testing procedures were performed during the development of Clock 
 
 ## Deployment
 
+1. This project was created by creating a repository under the name clock_quest and checked to use the all branches check-box. 
+2. I clicked the code drop down menu in the new repository and clicked on HTTPS and copied the link. I then went to the IDE Code Institute and pasted the link to open up my workspace. 
+3. I used three commands to push my work to git hub : git add, git commit -m "", and git push. Close to the end up my project, there was a technical error with my browser that was showing me something different to my web on someone else's browser, even with the same code.
+4. I opened a new branch to restart the main page of project, ran it locally and eventually merged the branch to the main to deploy it.
+
 Clock Quest was deployed using the following steps:
 
-1. Set up a hosting platform or server to host the web application.
-2. Ensure all necessary files (HTML, CSS, JavaScript, media) are uploaded to the server.
+1. Set up a hosting platform with Code Anywhere IDE.
+2. Ensure all necessary files (HTML, CSS, JavaScript, media) are uploaded to the server, with style.css and images in a different folder called assets.
 3. Configure any required server settings, such as DNS records or SSL certificates.
 4. Test the deployed website to verify its functionality in the live environment.
 5. Make the website publicly accessible by sharing the appropriate URL.
+
 
 ## Languages
 
@@ -143,12 +152,12 @@ The following software and tools were used in the development of Clock Quest:
 - Git (Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.)
 - Google Chrome Developer Tools (Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.)
 - balsamiq Wireframes (This was used to create wireframes for 'The Skeleton Plane' stage of UX design.).
-- CSS Generator (This was used to convert the RGBA colour for the site to Hex.
+- CSS Generator (This was used to convert the RGBA colour for the site to Hex.)
 - Techsini (tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README)
 
 ## Media
 
-All media assets, including images and icons, were either created specifically for Clock Quest or obtained from royalty-free sources. Please refer to the appropriate licenses and permissions for specific media assets used.
+All media assets, including images and videos, were either created specifically for Clock Quest or obtained from royalty-free sources. Please refer to the appropriate licenses and permissions for specific media assets used.
 
 ## Credits and Thanks
 
