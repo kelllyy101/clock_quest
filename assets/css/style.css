@@ -407,6 +407,17 @@ div.column-long ul li {
 }
 
 /*focus section*/
+.focus-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Adjust the height as needed */
+  }
+  
+  .focus-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
 .article-border h2{
     color: crimson;
     background-color: white;
@@ -414,7 +425,7 @@ div.column-long ul li {
     animation-duration: 4s;}
 
 @keyframes example {
-        from {background-color: crimson;}
+        from {background-color: white;}
         to {background-color: #616161;}
       }
       .video-focus {
@@ -446,6 +457,32 @@ div.column-long ul li {
       iframe {
         width: 100%;
         height: 180px;
+      }
+
+      ol {
+        list-style-type: decimal;
+        padding-left: 20px;
+      }
+      
+      ol li {
+        margin-bottom: 10px;
+        line-height: 1.5;
+      }
+      
+      .hover-container {
+        background-color: #f2f2f2;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      
+      .hover-container h2 {
+        margin: 0;
+      }
+      
+      h4 {
+        color: crimson;
+        font-size: 18px;
+        margin: 10 10 10 10;
       }
       
 /* sign up form */
@@ -566,6 +603,6 @@ button[type="submit"]:hover {
   .wrapper-3 {
     flex-basis: 100%;
     margin-bottom: 20px;
-  }S
+  }
 
     footer {        max-height: auto;        max-width: auto;        padding: 0;    }    footer img {        max-width: 20px;        max-height: 20px;        float: left;        margin-left: 0;        display: inline-flex;    }    .website-left,    .website-right {        max-width: 20px;        max-height: 20px;        float: left;        margin-left: 0;        display: flex;        justify-content: flex-start;        gap: 0px;    }    .website-left {margin-left: 2px;}    .logo-footer {        display: none;    }    .footer-wrapper {        max-height: 20px;    }    .column {        resize: vertical;        height: auto;    }}
