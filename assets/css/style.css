@@ -72,7 +72,6 @@ header {
     background: crimson;
     border-radius: 30px;
     color: white;
-    float: bottom;
 }
 
 .learnmorebtn span {
@@ -464,6 +463,7 @@ div.column-long ul li {
       iframe {
         width: 100%;
         height: 180px;
+        border:0;
       }
 
       ol {
@@ -484,12 +484,6 @@ div.column-long ul li {
       
       .hover-container h2 {
         margin: 0;
-      }
-      
-      h4 {
-        color: crimson;
-        font-size: 18px;
-        margin: 10 10 10 10;
       }
       
 /* sign up form */
@@ -583,7 +577,7 @@ button[type="submit"]:hover {
     .main-text-image {
         max-width: 50%;
         max-height: 50%;
-        padding: auto;
+        padding: 0;
         margin: 20px;
 
     }
@@ -614,4 +608,37 @@ button[type="submit"]:hover {
 
 /*apps*/
 
-    footer {        max-height: auto;        max-width: auto;        padding: 0;    }    footer img {        max-width: 20px;        max-height: 20px;        float: left;        margin-left: 0;        display: inline-flex;    }    .website-left,    .website-right {        max-width: 20px;        max-height: 20px;        float: left;        margin-left: 0;        display: flex;        justify-content: flex-start;        gap: 0px;    }    .website-left {margin-left: 2px;}    .logo-footer {        display: none;    }    .footer-wrapper {        max-height: 20px;    }    .column {        resize: vertical;        height: auto;    }}
+/*footer*/
+    footer {      
+    padding: 0;    
+}   
+    footer img {       
+        max-width: 20px;      
+        max-height: 20px;       
+        float: left;       
+        margin-left: 0;   
+        display: inline-flex;   
+     }      .website-left,    
+     .website-right {      
+          max-width: 20px;        
+          max-height: 20px;        
+          float: left;        
+          margin-left: 0;        
+          display: flex;        
+          justify-content: flex-start;        
+          gap: 0px;    
+        }    
+          .website-left {
+            margin-left: 2px;
+        }    
+        .logo-footer {    
+            display: none; 
+           }    
+      .footer-wrapper {   
+             max-height: 20px;   
+             }   
+    .column {   
+             resize: vertical;    
+             height: auto;    
+             }
+    }
