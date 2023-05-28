@@ -15,7 +15,7 @@ Clock Quest
 - [Credits and Thanks](#credits-and-thanks)
 
 ## Project Planning and Development
-![Media Queries](../clock_quest/screenshoots/clock_quest_media_queries.png)
+![Media Queries](https://github.com/kelllyy101/clock_quest/blob/main/screenshoots/clock_quest_media_queries.png)
 
 ### Project Inspection
 
@@ -85,10 +85,10 @@ Clock Quest includes the following key features:
 - Access to three videos that help with focusing and reaching your time management goals.
 - Footer: A footer section containing relevant information and links to social media platforms where you learn more about time management.
 
-![Videos embedded](../clock_quest/screenshoots/Captura%20de%20pantalla%20(352).png)
-![sign uo](../clock_quest/screenshoots/Captura%20de%20pantalla%20(353).png)
-![Advice](../clock_quest/screenshoots/Captura%20de%20pantalla%20(354).png)
-![Apps](../clock_quest/screenshoots/Captura%20de%20pantalla%20(355).png)
+![Videos embedded](https://github.com/kelllyy101/clock_quest/blob/main/screenshoots/Captura%20de%20pantalla%20(352).png)
+![sign uo](https://github.com/kelllyy101/clock_quest/blob/main/screenshoots/Captura%20de%20pantalla%20(353).png)
+![Advice](https://github.com/kelllyy101/clock_quest/blob/main/screenshoots/Captura%20de%20pantalla%20(354).png)
+![Apps](https://github.com/kelllyy101/clock_quest/blob/main/screenshoots/Captura%20de%20pantalla%20(355).png)
 
 Possible Future Features:
 
