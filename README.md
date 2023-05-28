@@ -107,7 +107,7 @@ The following testing procedures were performed during the development of Clock 
 - Typo errors: Thorough proofreading to identify and correct any typographical errors.
 - Manual testing: Testing the website manually across different devices and browsers.
 - Validator testing: Validation of HTML and CSS code to ensure compliance with web standards.
-- Performance and accessibility testing: Utilisation of Lighthouse tool to evaluate performance and accessibility aspects. Identified issues were addressed and optimized. Results found [here]{data:image/svg+xml;utf8,&lt;svg fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 48 48&quot;&gt;&lt;path d=&quot;m14 7 10-7 10 7v10h5v7h-5l5 24H9l5-24H9v-7h5V7Z&quot; fill=&quot;%23F63&quot;/&gt;&lt;path d=&quot;M31.561 24H14l-1.689 8.105L31.561 24ZM18.983 48H9l1.022-4.907L35.723 32.27l1.663 7.98L18.983 48Z&quot; fill=&quot;%23FFA385&quot;/&gt;&lt;path fill=&quot;%23FF3&quot; d=&quot;M20.5 10h7v7h-7z&quot;/&gt;&lt;/svg&gt;}
+- Performance and accessibility testing: Utilisation of Lighthouse tool to evaluate performance and accessibility aspects. Identified issues were addressed and optimized. Results can be found [here](https://github.com/kelllyy101/clock_quest/blob/main/lighthouse-report.html)
 
 ## Deployment
 
