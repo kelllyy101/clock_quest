@@ -15,6 +15,7 @@ Clock Quest
 - [Credits and Thanks](#credits-and-thanks)
 
 ## Project Planning and Development
+![Media Queries](../clock_quest/screenshoots/clock_quest_media_queries.png)
 
 ### Project Inspection
 
@@ -158,6 +159,9 @@ We would like to express our gratitude to the following individuals and resource
 
 - [CodePen](https://codepen.io/search/pens?q=animated+underline): Various CSS styling effects.
 - [w3s](https://www.w3schools.com/html/): various HTML elements, such as attritutes, semantics and forms.
+- [Code Institute](https://codeinstitute.net/ie)
+- [Code Academy](https://www.codecademy.com/)
+- [Modzilla](https://developer.mozilla.org/es/)
 
 Special thanks to Code Institure and my mentor for their dedication and efforts in creating this project.
 
