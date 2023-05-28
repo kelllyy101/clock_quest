@@ -1,6 +1,5 @@
-# My very first website
+# Clock Quest
 Welcome! [Code Institute](https://codeinstitute.net)
-# Project Name
 
 Clock Quest
 
@@ -70,15 +69,9 @@ The project will be developed using the following approach:
 3. Define a color scheme that aligns with the application's aesthetic and enhances user experience.
 4. Select typography that complements the overall design and improves readability.
 5. Develop responsive HTML and CSS code to build the front-end of the website.
-6. Incorporate JavaScript to implement interactive features and user customization options.
-7. Conduct thorough testing to ensure the website functions correctly across different devices and browsers.
-8. Deploy the website to a hosting platform for public access.
+6. Conduct thorough testing to ensure the website functions correctly across different devices and browsers.
+7. Deploy the website to a hosting platform for public access.
 
-### Wireframes and Color Scheme
-
-Please refer to the wireframes and color scheme documents provided separately.
-
-*add screenshots*
 
 ## Features
 
@@ -104,15 +97,11 @@ Possible Future Features:
 The following testing procedures were performed during the development of Clock Quest:
 
 - Testing during development: Regular testing at each stage to ensure proper functionality and responsive design.
-- Feature testing: Comprehensive testing of interactive features, such as alarm settings and time zone adjustments.
 - Footer testing: Verification of links and information in the footer section.
 - Typo errors: Thorough proofreading to identify and correct any typographical errors.
 - Manual testing: Testing the website manually across different devices and browsers.
 - Validator testing: Validation of HTML and CSS code to ensure compliance with web standards.
-- Performance and accessibility testing: Utilization of Lighthouse tool to evaluate performance and accessibility aspects. Identified issues were addressed and optimized.
-- Fixed bugs: List of bugs that were identified and successfully resolved.
-- Unfixed bugs: Known bugs or issues that have not been resolved yet.
-- Other known bugs: Additional bugs or issues that are documented for reference.
+- Performance and accessibility testing: Utilisation of Lighthouse tool to evaluate performance and accessibility aspects. Identified issues were addressed and optimized. Results found [here]{data:image/svg+xml;utf8,&lt;svg fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 48 48&quot;&gt;&lt;path d=&quot;m14 7 10-7 10 7v10h5v7h-5l5 24H9l5-24H9v-7h5V7Z&quot; fill=&quot;%23F63&quot;/&gt;&lt;path d=&quot;M31.561 24H14l-1.689 8.105L31.561 24ZM18.983 48H9l1.022-4.907L35.723 32.27l1.663 7.98L18.983 48Z&quot; fill=&quot;%23FFA385&quot;/&gt;&lt;path fill=&quot;%23FF3&quot; d=&quot;M20.5 10h7v7h-7z&quot;/&gt;&lt;/svg&gt;}
 
 ## Deployment
 
@@ -146,10 +135,8 @@ The following software and tools were used in the development of Clock Quest:
 - Web browsers (e.g., Chrome, Firefox, Safari)
 - Lighthouse (for performance and accessibility testing)
 - Font Awesome (Font awesome Icons are used for the Social media links contained in the Footer section of the website.)
-- Google Fonts(Google fonts are used throughout the project to import the Libre Baskerville and Cabin fonts.)
-- Visual Studio Code (VS Code is the Integrated Development Environment used to develop the Website.)
+- Google Fonts(Google fonts are used throughout the project to import the Montserrat font.)
 - GitHub (GithHub is the hosting site used to store the source code for the Website and Git Pages is used for the deployment of the live site.)
-- Git (Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.)
 - Google Chrome Developer Tools (Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.)
 - balsamiq Wireframes (This was used to create wireframes for 'The Skeleton Plane' stage of UX design.).
 - CSS Generator (This was used to convert the RGBA colour for the site to Hex.)
@@ -157,7 +144,7 @@ The following software and tools were used in the development of Clock Quest:
 
 ## Media
 
-All media assets, including images and videos, were either created specifically for Clock Quest or obtained from royalty-free sources. Please refer to the appropriate licenses and permissions for specific media assets used.
+All media assets, including images and videos, were either created specifically for Clock Quest or obtained from royalty-free sources. 
 
 ## Credits and Thanks
 
