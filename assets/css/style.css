@@ -18,8 +18,9 @@ a {
 
 .logo {
     color: crimson;
-    text-transform: uppercase;
     text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 header {
@@ -48,7 +49,7 @@ header {
 }
 
 .main-text-image h2 {
-    font-size: 6vmin;
+    font-size: 5vmin;
     text-align: center;
 }
 
@@ -337,7 +338,7 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
-
+/*apps structure*/
 .column {
     text-align: center;
     text-decoration: none;
@@ -363,9 +364,9 @@ div h3 {
 }
 
 div.column-long ul li {
-    display: inline;
     margin: 20px;
     line-height: 20px;
+    padding-bottom: 10px;
 }
 
 /*styling app links*/
@@ -375,6 +376,7 @@ div.column-long ul li {
     padding-top: 20px;
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 #app-link-toggl {
@@ -403,7 +405,14 @@ div.column-long ul li {
     color: crimson;
     text-decoration: none;
 }
-
+.app-list ul li {
+    text-align: center;
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
 .article-border {
     border-width: 1px;
     border-style: solid;
